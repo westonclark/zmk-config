@@ -761,9 +761,9 @@
         numpad_layer {
             label = "NUM";
             bindings = <
-  &kp EXCL     &kp AT          &kp HASH            &kp DOLLAR               &kp PERCENT    &kp CARET        &kp N7                    &kp N8               &kp N9           &trans
-  &kp AMPS     &kp STAR        &trans              &trans                   &trans         &trans           &kp N4                    &kp N5               &kp N6           &trans
-  &trans       &trans          &trans              &trans                   &trans         &trans           &kp N1                    &kp N2               &kp N3           &trans
+  &kp EXCL     &kp AT          &kp HASH            &kp DOLLAR               &kp PERCENT    &kp CARET        &kp N7                    &kp N8               &kp N9           &kp PLUS
+  &kp AMPS     &kp STAR        &trans              &trans                   &trans         &trans           &kp N4                    &kp N5               &kp N6           &kp UNDER
+  &trans       &trans          &trans              &trans                   &trans         &kp N0           &kp N1                    &kp N2               &kp N3           &kp EQUAL
                                &trans              &trans                   &trans         &trans           &trans                   &trans
             >;
         };

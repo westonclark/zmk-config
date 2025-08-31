@@ -698,6 +698,15 @@
             bindings = <&kp RALT>;
             key-positions = <28 27>;
         };
+        cv_left_gui {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <22 23>;
+        };
+
+        m_comma_right_gui {
+            bindings = <&kp RIGHT_GUI>;
+            key-positions = <26 27>;
+        };
 
         l_semicolon_quote {
             bindings = <&combo_quote>;
@@ -713,6 +722,8 @@
             bindings = <&combo_left_bracket>;
             key-positions = <7 8>;
         };
+
+
     };
 
     keymap {
@@ -724,7 +735,7 @@
   &q_grave     &cmd_w_euro     &lt 1 E             &kp R                    &lt 5 T        &lt 8 Y          &lt 1 U                   &kp I                &kp O            &kp P
   &kp A        &kp S           &kp D               &kp F                    &lt 3 G        &lt 3 H          &kp J                     &kp K                &kp L            &kp SEMICOLON
   &kp Z        &kp X           &kp C               &kp V                    &lt 6 B        &lt 2 N          &kp M                     &coma_semi           &dot_colon       &slashandbackslash
-                               &lt 7 LEFT_BRACKET  &kp LEFT_SHIFT           &lt 4 BACKSPACE &lt 4 SPACE     &kp RIGHT_GUI            &lt 3 ENTER
+                               &none              &kp LEFT_SHIFT           &kp BACKSPACE   &kp SPACE      &kp ENTER                &none
             >;
         };
 
